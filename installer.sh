@@ -8,3 +8,4 @@ mkdir FunctionDrawer/build
 cd FunctionDrawer/build
 qmake ../FunctionDrawer.pro
 make
+cd ../..
