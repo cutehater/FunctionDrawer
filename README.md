@@ -4,32 +4,15 @@ This is an UI app for getting a function plot on the specified interval.
 The app supports wide variety of functions (absolute value, powers and logarithms, trigonometric and inverse trigonometric functions).
 
 ## Installing
-1. Install `qtcreator` and `qmake` if you don't have it:
+Download and run installer (enter your sudo password and aссept package installation where needed):
 
 ```bash
-$ sudo apt-get update
-$ sudo apt-get install build-essential
-$ sudo apt-get install qtcreator
-$ sudo apt install qt5-default
-```
-2. Clone the repository:
-
-```bash
-$ git clone https://github.com/cutehater/FunctionDrawer.git
+$ wget https://raw.githubusercontent.com/cutehater/FunctionDrawer/main/installer.sh
+$ chmod +x installer.sh
+$ ./installer.sh
 ```
 
-3. Create build directory and open it:
-
-```bash
-$ mkdir FunctionDrawer/build
-$ cd FunctionDrawer/build
-```
-4. Create executable file `FunctionDrawer`:
-
-```bash
-$ qmake ../FunctionDrawer.pro
-$ make
-```
+This creates `FunctionDrawer` subdirectory in the current directory. The path to executable file is `./FunctionDrawer/build/FunctionDrawer`.
 
 ## Usage
 Function Drawer has pretty intuitive user interface: you just need to enter your function and segment bounds in special boxes and press `Draw` button to get function plot. Pay attention that you should type the function in a special format — you can learn more about it by pressing `?` button.
