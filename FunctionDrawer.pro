@@ -9,18 +9,18 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    drawer.cpp \
-    function.cpp \
+    drawer/drawer.cpp \
+    function/function.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow/mainwindow.cpp
 
 HEADERS += \
-    drawer.h \
-    function.h \
-    mainwindow.h
+    drawer/drawer.h \
+    function/function.h \
+    mainwindow/mainwindow.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow/mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
