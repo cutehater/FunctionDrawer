@@ -2,7 +2,7 @@
 
 #include<qgraphicsview.h>
 #include<qgraphicsscene.h>
-#include<function.h>
+#include<../function/function.h>
 
 class Drawer
 {

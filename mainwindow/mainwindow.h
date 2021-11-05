@@ -1,7 +1,7 @@
 #pragma once
 
-#include "drawer.h"
-#include "function.h"
+#include "../drawer/drawer.h"
+#include "../function/function.h"
 
 #include <stdexcept>
 #include <QMainWindow>
